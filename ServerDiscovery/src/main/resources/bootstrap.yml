@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: discovery-server
+  cloud:
+    config:
+      uri: http://localhost:8084
+      username: user
+      password: s3cr3t

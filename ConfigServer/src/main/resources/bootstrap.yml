@@ -1,0 +1,17 @@
+server:
+  port: 8084
+spring:
+  application:
+    name: BankingConfigServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/EugenioRS95/BankingProject-ConfigServer.git
+          username: EugenioRS95
+          password: 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
+          default-label: main
+  security:
+    user:
+      name: user
+      password: s3cr3t
